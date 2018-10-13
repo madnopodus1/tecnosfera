@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+	width: 100%;
+    height: 60px;
+	background-color: rgb(100,149,237,0.9);
+    padding: 25px;
+    margin: auto;
+    margin-left: auto;
+    
+    
+	
+}
+
+
+
+#menu {
+    
+	width: 950px;
+	padding-top: 0px;
+	margin: auto;
+    margin-top: auto;
+    
+}
+#menu ul a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font: bold 18px verdana;
+	margin-right: 100px;
+	
+}
+
+
+#menu ul a:hover{
+	
+	color:white;	
+    border-bottom: solid 3px white;
+   
+}
+
+body {
+	background-image : url(../img/fondo_.png);
+	background-attachment: fixed;
+	background-position: center center; 
+	
+    
+}
+
+
+.contenido-1 {
+	width: 100%;
+	 background-color: rgb(100,149,237,0.9);
+	padding: 80px;
+    margin-top: 50vh;
+    
+}
+
+.contenido-1 h1 {
+	text-align: center;
+	color: white;
+    
+}
+.contenido-voip-all {
+     display: -webkit-box; 
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+    
+}
+.contenido-voip-all a {
+    text-decoration: none;
+}
+.contenido-voip {
+	width: 220px;
+	padding: 20px;
+	text-align: center;
+	margin: 20px;
+	-webkit-transition: all 300ms;
+   transition: all 300ms;
+   margin-top: 40px;
+    text-decoration: none;
+}
+.contenido-voip h2{
+  
+   
+}
+
+.contenido-voip:hover{
+
+	-webkit-box-shadow:0px 0px 60px 10px white    ;
+	box-shadow: 0px 0px 60px 10px white    ;
+   
+}
+
+.contenido-voip img {
+	width: 180px;
+	border-radius: 20px;
+	-webkit-box-shadow:0px 0px 40px 15px #396BF7 ;
+	box-shadow: 0px 0px 40px 15px #396BF7 ;
+}
+.contenido-voip h5{
+	margin-top: 30px;
+	color: white;
+    text-decoration: none;
+}
+.contenido-voip p{
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+.contenido-voip p a{
+    margin-top: 10px;
+    color: blueviolet;
+    text-decoration: none;
+}
+hr {
+	border-top: 7px solid #000; 
+	border-bottom: 7px solid #000;
+	border-left:  none;
+	border-right: none;
+	height: 36px;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.parrafo1{
+	 
+   
+	text-align: center; 
+	color: white;
+    font-weight: 600;
+
+	height: 200px;
+	margin: auto;
+    margin-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    max-width: 980px;
+    font-size: 22px;
+    
+}
+
+
+/*fondo del apartado seccion servicios*/
+.contenido-2 {
+  background-color: rgb(100,149,237,0.9);/*opacidad solo al fondo*/
+   
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 110%;
+  
+}
+.contenido-2 h1{
+    color: white;
+}
+ .contenido-2 p{
+
+box-shadow: 0px 0px 80px white;	
+}
+
+.contenido-item-1  {
+   
+	
+    width: 80%;
+	margin: auto;
+    margin-left: 18%;	
+	padding: 10px;
+	
+    
+}
+ 
+
+.contenido-item-1 img  { /*imagenes de servicios 2 y 2*/
+       
+   float: left;
+    margin: auto;
+    padding: 5px;
+        
+}
+
+
+
+
+.contenido-item-1 h1 {
+	margin-top: 50px;
+	color: white;
+    text-align: center;
+    
+}
+h4 {
+	background:blue;
+	color: white;
+	box-shadow: 0px 0px 60px #000;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	margin-top: 60px;
+	margin-bottom: -50px;
+	
+}
+
+
+
+.contenido-3{
+   background-color: rgb(100,149,237,0.9);
+	width: 100%;
+	height: 80vh;
+	padding-top: 5px;
+	margin-top: 10%;
+}
+
+/*imagenes item noticias*/
+.contenido-3 img{ 
+    
+    display: inline-block;
+	float: left;
+	margin:15px;    
+    margin-left: 200px;
+    padding: 8px;
+	width: 35%;
+  
+   
+}
+
+
+.contenido-3 p{
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+}
+
+
+
+.contenido-4{
+    background-color: rgb(100,149,237,0.9);
+	width: 100%;
+	height: 70vh;
+	margin-top: 180px;
+}
+
+.contenido-5{
+   background-color: rgb(100,149,237,0.9);
+	width: 100%;
+	height: 50vh;
+	margin-top: 20vh;
+	padding-top: 50px;
+}
+
+
+#puntero {
+	cursor: pointer;
+
+}
+
+form {
+	cursor: pointer;
+	width: 750px;
+	margin: 580px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+h2 {
+   
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 20px;
+	margin-bottom: 10px;
+    text-decoration: underline;
+}
+input, textarea {
+	background:#032B76;
+	color: white;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 23px;
+    font-weight: bold;
+	border: none;
+	cursor: pointer;
+     border-radius: 30px;
+}
+textarea {
+	background:#032B76;
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+	border-radius: 20px;
+	cursor: pointer;
+}
+#boton{
+    background:#032B76;
+    color: #fff;
+    padding: 3px;
+    border-radius: 30px;
+}
+#boton:hover{
+	cursor: pointer;
+}
+h6 {
+	font-size: 50px;
+	color: #F89B2E;
+}
+h3 {
+    color: white;
+}
+
+@media (max-width: 480px) {
+	form {
+		width: 100%;
+	}
+}
+
+footer {
+	 background-color: rgb(100,149,237,0.9);/*este codigo es para opacar solo el fondo*/
+	color: #0610A6;
+	padding: 100px;
+
+}
+
+
+footer p {
+	text-align: center; 
+	color: white;
+}
